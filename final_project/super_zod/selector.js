@@ -4,9 +4,10 @@ let showMeObj = document.getElementById('showMe');
 function computeZod() {
   let userBday = zodDateObj.value;
   console.log('userBday is ' + userBday);
+  // 1998-10-21
   let monthStr = userBday.substr(5,2);
   let dayStr = userBday.substr(8,2);
-  /* convert str into number */
+  // convert str into number
   let monthNum = parseInt(monthStr);
   let dayNum = parseInt(dayStr);
   showMeObj.innerHTML = dateToZodiac(monthNum, dayNum);
