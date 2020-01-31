@@ -1,7 +1,8 @@
-## final project | idm231-jcz42
+## final project // idm231-jcz42
 
-This is a web page based "Rick and Morty" zodiac based upon the Zodiac Algorithm.
+### Which "Rick and Morty" character are you? 
+##### Chosen by zodiac sign based upon the Zodiac Algorithm.
 
-- Users can enter any valid birth date. The application will compute the correct response according to the western zodiac system for that date.
-- The character for your sign will appear and play a unique sound.
-- Users can go back to the selection page and re-enter any valid birth date. The application will re-compute the correct response.
+- Users can enter any valid birth date and the application will compute the correct response, according to the western zodiac system for that date.
+- The character relating to your sign will appear and play a unique sound relating to that particular character.
+- Users can go back a page and re-enter any valid birth date and the application will re-compute the correct response.
