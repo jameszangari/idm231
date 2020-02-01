@@ -2,6 +2,10 @@
 
 @import url('https://fonts.googleapis.com/css?family=Overpass&display=swap');
 
+body {
+    cursor:url(../images/spaceship_cursor.png), auto;
+}
+
 h1 {
     color: #fff;
     font-family: 'Overpass', sans-serif;
