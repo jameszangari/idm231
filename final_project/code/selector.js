@@ -4,8 +4,6 @@ let showMeObj = document.getElementById('showMe');
 function computeZod() {
   let userBday = zodDateObj.value;
   console.log('userBday is ' + userBday);
-  // Month and Day only
-  $('#zodDate').zodDate( { changeYear: false, dateFormat: 'dd-mm' } );
   // 1998-10-21
   let monthStr = userBday.substr(5,2);
   let dayStr = userBday.substr(8,2);
