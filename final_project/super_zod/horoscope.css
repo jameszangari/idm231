@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Overpass&display=swap');
 
 body {
-    cursor:url(../images/cursor/spaceship_cursor.png), auto;
+    cursor:url(../images/spaceship_cursor.png), auto;
 }
 
 h1 {
@@ -14,15 +14,30 @@ h1 {
     position: absolute;
     top: 10%;
     left: 50%;
+    margin-right: -50%;
     transform: translate(-50%, -50%);
 }
+
+/* #wrapper {
+    display: block;
+    height: 100px;
+    width: 200px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    z-index: 2;
+} */
 
 #wrapper {
     margin: 0;
     z-index: 2;
     position: absolute;
-    top: 50%;
+    top: 10%;
     left: 50%;
+    margin-right: -50%;
     transform: translate(-50%, -50%);
 }
 
@@ -53,27 +68,9 @@ h1 {
     padding-bottom: 1rem;
 }
 
-.buttonpadding {
+.padding {
     padding-bottom: 1rem;
-    margin: 0;
-    z-index: 2;
-    position: absolute;
-    top: 250%;
-    left: 50%;
-    transform: translate(-50%, -50%);
 }
-
-.datepadding {
-    padding-bottom: 1rem;
-    margin: 0;
-    z-index: 2;
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-/* Button Styles */
 
 /* Removes the clear button from date inputs */
 input[type="date"]::-webkit-clear-button {
@@ -111,7 +108,7 @@ input[type="date"], focus {
     -moz-box-shadow: none;
 }
 
-/* BACKGROUND STARS */
+/* STARS BACKGROUND */
 * {
     margin: 0;
     padding: 0;
