@@ -83,7 +83,6 @@ h1 {
 }
 
 /* Button Styles */
-
 /* Removes the clear button from date inputs */
 input[type="date"]::-webkit-clear-button {
     display: none;
