@@ -2,6 +2,11 @@
 
 @import url('https://fonts.googleapis.com/css?family=Overpass&display=swap');
 
+/* Mobile Repsonsive */
+@-ms-viewport {
+    width: device-width;
+}
+
 body {
     cursor: url(../images/cursor/spaceship_cursor.png), auto;
 }
