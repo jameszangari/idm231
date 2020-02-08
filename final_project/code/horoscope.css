@@ -11,6 +11,10 @@ body {
     cursor: url(../images/cursor/spaceship_cursor.png), auto;
 }
 
+.characters {
+    display: flex;
+}
+
 h1 {
     color: #fff;
     font-family: 'Overpass', sans-serif;
