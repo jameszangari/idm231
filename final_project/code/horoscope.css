@@ -13,6 +13,23 @@ body {
 
 .characters {
     display: flex;
+    margin: 0;
+    z-index: 2;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.zodiac-characters {
+    max-width: 3em;
+    height: auto;  
+    transition: filter .3s ease-in-out;
+    filter: grayscale(100%);
+}
+
+.zodiac-characters:hover {
+    filter: grayscale(0%);
 }
 
 h1 {
@@ -22,6 +39,15 @@ h1 {
     margin: 0;
     z-index: 2;
     padding: 2em 1em 1em 1em;
+    position: relative;
+}
+
+h3 {
+    color: #fff;
+    font-family: 'Overpass', sans-serif;
+    text-align: center;
+    margin: 0;
+    z-index: 2;
     position: relative;
 }
 
