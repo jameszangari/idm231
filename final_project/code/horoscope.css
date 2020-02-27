@@ -2,6 +2,35 @@
 
 @import url('https://fonts.googleapis.com/css?family=Overpass&display=swap');
 
+@font-face {
+    font-family: 'Get Schwifty';
+    src: url('../fonts/GetSchwifty-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('../fonts/HelveticaNeueBoldCondensed.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Calligraphr';
+    src: url('../fonts/Calligraphr-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Rick_and_Morty';
+    src: url('../fonts/Rick_and_Morty.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+
 /* Mobile Repsonsive */
 @-ms-viewport {
     width: device-width;
@@ -13,51 +42,61 @@ body {
 
 .characters {
     display: flex;
-    margin: 0;
-    z-index: 2;
+    justify-content: center;
+    padding: 2em 0 1em 0;    
+    z-index: 99;
     position: absolute;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
 }
 
 .zodiac-characters {
-    max-width: 3em;
-    height: auto;  
+    width: 7%;
+    height: auto; 
     transition: filter .3s ease-in-out;
-    filter: grayscale(100%);
 }
 
 .zodiac-characters:hover {
     filter: grayscale(0%);
+    filter: grayscale(100%);
 }
 
 h1 {
     color: #fff;
-    font-family: 'Overpass', sans-serif;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 2em;
     text-align: center;
     margin: 0;
     z-index: 2;
-    padding: 2em 1em 1em 1em;
+    padding: 0 1em 1em 1em;
     position: relative;
+}
+
+.h1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 99;
+    position: relative;
+    width: 75%;
+    height: auto;
 }
 
 h3 {
     color: #fff;
-    font-family: 'Overpass', sans-serif;
+    font-size: 2em;
+    font-family: 'Calligraphr', sans-serif;
     text-align: center;
     margin: 0;
     z-index: 2;
     position: relative;
+    padding: 1.5em 2em 0 2em;
 }
 
 #wrapper {
-    margin: 0;
-    z-index: 2;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin-top: 7.5em;
+    z-index: 99;
 }
 
 #compute {
@@ -81,43 +120,56 @@ h3 {
 }
 
 #showMe {
-    position: absolute;
-    height: 100%;
-    z-index: 3;
+    z-index: 99;
+    padding-top: 1em;
+}
+
+#target {
+    z-index: 99;
+    width: 7em;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .form {
-    padding-bottom: 1rem;
+    z-index: 99;
+}
+
+.flexgroup {
+    z-index: 99;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
 }
 
 .text {
-    font-family: 'Overpass', sans-serif;
+    font-family: 'Calligraphr', sans-serif;
     color: #fff;
-    font-size: 22px;
-    padding-bottom: 4rem;
+    font-size: 32px;
+    padding-top: 1rem;
+    padding-bottom: 1.5rem;
+    z-index: 99;
 }
 
-.buttonpadding {
-    padding-bottom: 1rem;
-    margin: 0;
-    z-index: 2;
-    position: absolute;
-    top: 200%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+#zodDate {
+    font-family: 'Calligraphr', sans-serif;
 }
 
-.datepadding {
-    padding-bottom: 5rem;
-    margin: 0;
-    z-index: 2;
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.button {
+    display: flex;
+    justify-content: center;
+    z-index: 99;
+    text-align: center;
+}
+
+.date {
+    z-index: 99;
 }
 
 /* Button Styles */
+
 /* Removes the clear button from date inputs */
 input[type="date"]::-webkit-clear-button {
     display: none;
@@ -177,7 +229,7 @@ input[type="date"], focus {
     to {background-position:-10000px 5000px;}
 }
 
-.stars, .twinkling {
+#stars, #twinkling {
   position:absolute;
   top:0;
   left:0;
@@ -188,12 +240,12 @@ input[type="date"], focus {
   display:block;
 }
 
-.stars {
+#stars {
   background:#000 url(../images/wallpapers/stars.png) repeat top center;
   z-index:0;
 }
 
-.twinkling{
+#twinkling{
   background:transparent url(../images/wallpapers/twinkling.png) repeat top center;
   z-index:1;
 
