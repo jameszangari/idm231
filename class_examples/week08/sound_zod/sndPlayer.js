@@ -1,23 +1,21 @@
-let but1Obj = document.getElementById("but1");
-let but2Obj = document.getElementById("but2");
-let but3Obj = document.getElementById("but3");
+// Optimized
 
-let soundPlayerObj = document.getElementById("soundPlayer");
+const sounds = {
+    Bullet: new Audio("sounds/bullet.mp3"),
+    Roger: new Audio("sounds/roger.mp3"),
+    Heatseeker: new Audio("sounds/heatseeker.mp3")
+}
 
-but1Obj.addEventListener('click', function () {
-    playSomething('sounds/bullet.mp3');
-}, false);
+const playSomething = whichSound => {
+    whichSound.play();
+}
 
-but2Obj.addEventListener('click', function () {
-    playSomething('sounds/heatseeker.mp3');   
-}, false);
-
-but3Obj.addEventListener('click', function () {
-     playSomething('sounds/roger.mp3');   
-}, false);
-
-function playSomething(whichOne) {
-    console.log('playSomething called' + whichOne)
-    soundPlayerObj.src = whichOne;
-    soundPlayerObj.play();
+// Loop thru all ".sndButton" buttons
+const soundButtonObjs = document.querySelectorAll(".sndButton");
+for (var i = 0; i < soundButtonObjs.length; i++) {
+//    console.log(soundButtonObjs[i]);
+    soundButtonObjs[i].addEventListener("click", function(event) {
+        const soundName = event.target.innerHTML;
+        playSomething(sounds[soundName])
+    }, false)
 }
