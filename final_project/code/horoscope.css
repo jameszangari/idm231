@@ -41,14 +41,27 @@ body {
 
 .characters {
     display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     justify-content: center;
     padding: 2em 0 1em 0;    
     z-index: 99;
     position: absolute;
+    margin-left: 25px;
+}
+.characters2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2em 0 1em 0;    
+    z-index: 99;
+    position: absolute;
+    margin-left: 100px;
 }
 
 .zodiac-characters {
-    width: 7%;
+    width: 12%;
     height: auto; 
     transition: filter .3s ease-in-out;
 }
@@ -111,10 +124,20 @@ h3 {
     cursor: pointer;
 }
 
+#showMeDates {
+    text-align: center;
+}
+
 #showMe {
     z-index: 99;
     padding-top: 1em;
+    margin-left: 8em;
 }
+/* 
+.item3 {
+    background-color: white;
+    opacity: 50%;
+} */
 
 #target {
     z-index: 99;
@@ -137,15 +160,9 @@ h3 {
 
 #organizer {
     display: grid;
-    grid-template-columns: 400px 400px 400px;
+    /* grid-template-columns: 400px 400px 400px; */
     position: relative;
-    top: 150px;
-}
-
-.gridgroup {
-    display: grid;
-    justify-content: center;
-    grid-template-columns: auto;
+    top: 30px;
 }
 
 .item1 {
@@ -177,12 +194,14 @@ h3 {
 
 #zodDate {
     font-family: 'Calligraphr', sans-serif;
+    width: 100%;
 }
 
 .button {
     z-index: 99;
-    text-align: left;
+    text-align: center;
     padding-top: 2em;
+    width: 100%;
 }
 
 .date {
