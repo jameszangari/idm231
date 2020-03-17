@@ -16,7 +16,7 @@
 
 <body>
 <a href="home.html"><img src="../fonts/h1.png" alt="Title" class="h1"></a>
-<h3>Find out below by selecting a character icon or entering your birthdate.</h3>
+<h3>Select a character on the left or enter your birthdate to find out!</h3>
 
 <div class="characters">
   <img src="../images/characters/mrmeeseeks_icon.png" alt="Mr. Meeseeks" 
@@ -31,9 +31,7 @@
       class="zodiac-characters" id="leo">
   <img src="../images/characters/zeepxanflorp_icon.png" alt="Zeep Xan Florp"
       class="zodiac-characters" id="virgo">
-</div>
-<div class="characters2">  
-      <img src="../images/characters/birdperson_icon.png" alt="Birdperson" 
+  <img src="../images/characters/birdperson_icon.png" alt="Birdperson" 
       class="zodiac-characters" id="libra">
   <img src="../images/characters/krombopulosmichael_icon.png" alt="Krombopulos Michael" 
       class="zodiac-characters" id="scorpio">
@@ -50,7 +48,7 @@
 
 <div id="organizer">
   <div id="wrapper">
-      <p class="text">Enter your birthday:</p>
+      <p class="text">Enter your birthdate:</p>
     <div class="form">
     <form action="">
       <label for="zods" class="text"></label>
@@ -65,12 +63,15 @@
     <audio src="" id="soundPlayer">
       <p>Your browser does not support HTML5 audio tags. Please uprade to access content.</p>
     </audio>
+  
+  <div id="showMe" class="showMeDiv"></div>
 
-  <div class="button"><button id="compute" onclick="computeZod();" class="text">Go!</button></div>
 
-  <div id="showMe" class="item3"></div>
+  <div class="button"><button id="compute" onclick="computeZod();">Go!</button></div>
 
 </div>
+
+<button id="myBtn" title="Help">Help</button>
 
 <script src="selector.js"></script>
 

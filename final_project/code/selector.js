@@ -95,63 +95,63 @@ function swapZodInfo(whichOne) {
   console.log('swapZodInfo called ' + whichOne);
     if        (whichOne == 1) {
       targetObj.src = '../images/characters/mrmeeseeks_icon.png';
-      showMeDatesObj.textContent = "Mr. Meeseeks: Aries (March 21 - April 19)"
-      showMeObj.textContent = "Mr. Meeseeks is the name of all the Meeseeks summoned by activating a Mr. Meeseeks Box. The Meeseeks appear in the fifth episode of the first season, 'Meeseeks and Destroy'. They are known to inhabit planets across the universe.";
+      showMeDatesObj.textContent = "Aries (March 21 - April 19)"
+      showMeObj.textContent = "Mr. Meeseeks is the name of all the Meeseeks summoned by activating a 'Mr. Meeseeks Box'. Their motivation to help others comes from the fact that existence is painful to a Meeseeks, and the only way to be removed from existence is to complete the task they were called to perform.";
   
     } else if (whichOne == 2) {
       targetObj.src = '../images/characters/scaryterry_icon.png';
-      showMeDatesObj.textContent = "Scary Terry: Taurus (April 20 – May 20)"
-      showMeObj.textContent = "Scary Terry is a character that appeared as the former secondary antagonist in the episode 'Lawnmower Dog' and the comic story Morty and Rick in: Mortballs. After a failed attempt at killing them, Scary Terry retreats and heads home. While he is asleep, Rick and Morty incept his dreams and befriend him, he is also the husband of Melissa, and the father of Scary Brandon.";
+      showMeDatesObj.textContent = "Taurus (April 20 – May 20)"
+      showMeObj.textContent = "Scary Terry is a misunderstood character who appears to be bloodthirsty and nightmarish. He puts pressure on himself because he is very self-conscious about how scary he is and fears that he may not be terrifying enough to scare people.";
   
     } else if (whichOne == 3) {
       targetObj.src = '../images/characters/kingjellybean_icon.png';
-      showMeDatesObj.textContent = "King Jellybean: Gemini (May 21 – June 20)"
-      showMeObj.textContent = "King Jellybean (also referred to as Mr. Jellybean) is the central antagonist of the episode 'Meeseeks and Destroy'. King Jellybean was a giant anthropomorphic jelly bean. It was later revealed that he was the king of a poor village that Rick and Morty agreed to help.";
+      showMeDatesObj.textContent = "Gemini (May 21 – June 20)"
+      showMeObj.textContent = "King Jellybean is a giant anthropomorphic jelly bean who appears to be a kind and friendly individual. However, this just a ruse, which he uses to lure in his victims. King Jellybean was a pedophile, he had a kind and friendly appearance, masking his true nature. ";
 
     } else if (whichOne == 4) {
       targetObj.src = '../images/characters/jessica_icon.png';
-      showMeDatesObj.textContent = "Jessica: Cancer (June 21 – July 22)"
-      showMeObj.textContent = "Jessica is a student at Harry Herpson High School. She is a popular girl in Morty Smiths math class who he desires to be with romantically and often has surreal daydreams about, almost exclusively sexual in nature. Much to Morty's dismay, she was already in a relationship with Brad, whom she frequently experienced difficulties with.";   
+      showMeDatesObj.textContent = "Cancer (June 21 – July 22)"
+      showMeObj.textContent = "Jessica is the popular girl at school. Morty Smith desires to be with her romantically and often has surreal daydreams about. Much to Morty's dismay, she was already in a relationship with Brad, whom she frequently experienced difficulties with.";   
 
     } else if (whichOne == 5) {
       targetObj.src = '../images/characters/squanchy_icon.png';
-      showMeDatesObj.textContent = "Squanchy: Leo (July 23 – August 22)"
-      showMeObj.textContent = "Squanchy is a cat-like anthropomorphic creature that was invited to Rick and Summer's party in 'Ricksy Business'. He is a recurring character in Rick and Morty, and very good friends with Rick, sharing his love for alcohol. Morty and Jessica first meet Squanchy engaging in auto-erotic asphyxiation masturbation in Morty's garage. This marks the first among many things he refers to as 'squanching'";
+      showMeDatesObj.textContent = "Leo (July 23 – August 22)"
+      showMeObj.textContent = "Squanchy is a cat-like anthropomorphic creature that is good friends with Rick, and shares his love for alcohol. Morty and Jessica first meet Squanchy engaging in auto-erotic asphyxiation masturbation in Morty's garage. This marks the first among many things he refers to as 'squanching'";
 
     } else if (whichOne == 6) {
       targetObj.src = '../images/characters/zeepxanflorp_icon.png';
-      showMeDatesObj.textContent = "Zeep Xanflorp: Virgo (August 23 – September 22)"
+      showMeDatesObj.textContent = "Virgo (August 23 – September 22)"
       showMeObj.textContent = "Zeep Xanflorp is a scientist within Rick's Microverse Battery who creates his own micro-planet power supply called the Miniverse. His development of a new power supply prevents Rick from using his flying car. Zeep is depicted as arrogant and very intelligent, and in many ways a parallel of Rick Sanchez.";
 
     } else if (whichOne == 7) {
       targetObj.src = '../images/characters/birdperson_icon.png';
-      showMeDatesObj.textContent = "Birdperson: Libra (September 23 – October 22)"
-      showMeObj.textContent = "Birdperson, currently known as Phoenixperson, is a recurring character in Rick and Morty. He is an old friend of Rick's and has seemingly known Morty since he was a baby. He attends Rick's party looking for a new mate after ending his soul-bond with his previous spirit-partner. At the end of the episode, he gets back in the saddle with one of Summer's high school friends, Tammy.";
+      showMeDatesObj.textContent = "Libra (September 23 – October 22)"
+      showMeObj.textContent = "Birdperson is an old friend of Rick's and has seemingly known Morty since he was a baby. Birdperson is very wise, having experienced so much about the universe with his best friend, Rick. He offers well-meaning advice to anyone willing to listen to him.";
 
     } else if (whichOne == 8) {
       targetObj.src = '../images/characters/krombopulosmichael_icon.png';
-      showMeDatesObj.textContent = "Krombopulos Michael: Scorpio (October 23 – November 21)"
-      showMeObj.textContent = "Krombopulos Michael was a Gromflomite assassin that purchased weapons from Rick Sanchez, he was also the husband of Amy. Rick refers to him as his best customer. His final purchase was an anti-matter handgun, to be used to kill Fart, a gaseous target that couldn't be destroyed with normal weapons. When he meets Rick at a garage to purchase the gun, Krombopulos introduces himself to Morty, giving him a business card.";
+      showMeDatesObj.textContent = "Scorpio (October 23 – November 21)"
+      showMeObj.textContent = "Krombopulos Michael was a Gromflomite assassin that purchased weapons from Rick Sanchez. His final purchase was an anti-matter handgun, to be used to kill Fart, a gaseous target that couldn't be destroyed with normal weapons.";
 
     } else if (whichOne == 9) {
       targetObj.src = '../images/characters/princenebulon_icon.png';
-      showMeDatesObj.textContent = "Prince Nebulon: Sagittarius (November 22 – December 21)"
-      showMeObj.textContent = "Prince Nebulon was the leader of the Zigerions in Rick and Morty. He appears as the main antagonist in M. Night Shaym-Aliens!. He has a long-standing grudge against Rick Sanchez and is committed to stealing the recipe for Concentrated Dark Matter from him. He is apparently concerned with the discoloration of his butthole flaps.";
+      showMeDatesObj.textContent = "Sagittarius (November 22 – December 21)"
+      showMeObj.textContent = "Prince Nebulon was the leader of the Zigerions. He has a long-standing grudge against Rick Sanchez and is committed to stealing the recipe for Concentrated Dark Matter from him. After believing he has all of the ingredients, the bomb explodes, killing Nebulon and his entire crew as Jerry observes while in safety in Rick's escape pod.";
 
     } else if (whichOne == 10) {
       targetObj.src = '../images/characters/janmichaelvincent_icon.png';
-      showMeDatesObj.textContent = "Jan-Michael Vincent: Capricorn (December 22 – January 19)"
-      showMeObj.textContent = "Jan-Michael Vincent is an actor who appeared in Interdimensional Cable 2: Tempting Fate. Eight versions of him appeared in the movie Jan Quadrant Vincent 16. Based on the trailer for the movie, it appeared to be an action movie set in a dystopian society where Jan-Michael Vincents helped to maintain order.There is no quadrant P, instead there are 2 quadrants H.";   
+      showMeDatesObj.textContent = "Capricorn (December 22 – January 19)"
+      showMeObj.textContent = "Jan-Michael Vincent is an actor who appeared on Interdimensional Cable. Eight versions of him appeared in the movie 'Jan Quadrant Vincent Sixteen'. The action movie trailer was set in a dystopian society where Jan-Michael Vincents helped to maintain order. There is no quadrant P, instead there are two quadrants H.";   
 
     } else if (whichOne == 11) {
       targetObj.src = '../images/characters/gearhead_icon.png';
-      showMeDatesObj.textContent = "Revolio Clockberg Jr.: Aquarius (January 20 – February 18)"
-      showMeObj.textContent = "Revolio Clockberg Jr., more commonly referred to as Gearhead, is a recurring character who first appeared in the episode 'Ricksy Business'. His character is a representative of 'social gearheads', people who know a lot of technical information about gears. In Gearhead's case, it's information about the Gear Wars and engineering. He is a guest at Rick and Summer's party and can play an instrument similar to a lute.";   
+      showMeDatesObj.textContent = "Aquarius (January 20 – February 18)"
+      showMeObj.textContent = "Revolio Clockberg Jr., more commonly referred to as Gearhead, is a representative of 'social gearheads', people who know a lot of technical information about gears. In Gearhead's case, it's information about the Gear Wars and engineering.";   
       
     } else if (whichOne == 12) {
       targetObj.src = '../images/characters/kingflippynips_icon.png';
-      showMeDatesObj.textContent = "King Flippy Nips: Pisces (February 19 – March 20)"
-      showMeObj.textContent = "King Flippy Nips is the ruler of Pluto. He first appeared in 'Something Ricked This Way Comes' as the central antagonist. He acts quite self-centered. He is also selfish because he knows everything his son says is real, but keeps quiet about it because he wants to stay king. He is also highly manipulative.";      
+      showMeDatesObj.textContent = "Pisces (February 19 – March 20)"
+      showMeObj.textContent = "King Flippy Nips is the highly manipulative, self-centered ruler of Pluto who denies thr truth about his 'planet', but keeps quiet about it because he wants to stay king.";      
 
   } else {
       console.log('error in swapZodInfo');

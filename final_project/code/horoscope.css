@@ -1,6 +1,6 @@
 /* CSS FINAL PROJECT IDM231 */
 
-@import url('https://fonts.googleapis.com/css?family=Overpass&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Overpass|Karla|Schoolbell&display=swap');
 
 @font-face {
     font-family: 'Get Schwifty';
@@ -44,32 +44,28 @@ body {
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 2em 0 1em 0;    
     z-index: 99;
     position: absolute;
     margin-left: 25px;
-}
-.characters2 {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 2em 0 1em 0;    
-    z-index: 99;
-    position: absolute;
-    margin-left: 100px;
+    margin-top: -150px;
 }
 
 .zodiac-characters {
-    width: 12%;
-    height: auto; 
+    width: 8%;
+    height: auto;
     transition: filter .3s ease-in-out;
+    background-color: #555;
+    border-radius: 50%;
 }
 
 .zodiac-characters:hover {
     filter: grayscale(0%);
     filter: grayscale(100%);
     cursor: pointer;
+}
+
+.zodiac-characters:active {
+    background-color: rgb(110, 180, 120);
 }
 
 h1 {
@@ -89,13 +85,13 @@ h1 {
     margin-right: auto;
     z-index: 99;
     position: relative;
-    width: 75%;
+    width: 70%;
     height: auto;
 }
 
 h3 {
     color: #fff;
-    font-size: 2em;
+    font-size: 1.75em;
     font-family: 'Calligraphr', sans-serif;
     text-align: center;
     margin: 0;
@@ -106,6 +102,8 @@ h3 {
 
 #compute {
     color: #20bf6b !important;
+    font-family: 'Calligraphr', sans-serif;
+    font-size: 28px;
     text-transform: uppercase;
     background: #ffffff;
     padding: 20px;
@@ -129,24 +127,28 @@ h3 {
 }
 
 #showMe {
-    z-index: 99;
+    font-size: 28px;
+    z-index: 98;
     padding-top: 1em;
-    margin-left: 8em;
+    margin-left: 7em;
+    margin-right: 3em;
 }
-/* 
-.item3 {
-    background-color: white;
-    opacity: 50%;
-} */
+
+.showMeDiv {
+    font-family: 'Calligraphr', sans-serif;
+    color: #fff;
+}
 
 #target {
     z-index: 99;
-    width: 97.5px;
-    height: 195px;
+    /* width: 97.5px; */
+    max-height: 195px;
     display: block;
     margin-left: auto;
     margin-right: auto;
     padding-top: 1em;
+    margin-bottom: -50px;
+    margin-top: 20px;
 }
 
 .form {
@@ -166,28 +168,20 @@ h3 {
 }
 
 .item1 {
-    font-family: 'Helvetica Neue', sans-serif;
+    font-family: 'Schoolbell', sans-serif;
     color: #fff;
-    font-size: 32px;
-    padding-bottom: 1.5rem;
-    z-index: 99;
-    margin-right: 2em;
-    margin-left: 2em;
+    font-weight: 600;
+    font-size: 28px;
+    z-index: 98;
     margin-bottom: -3em;
-}
-
-.item3 {
-    font-family: 'Calligraphr', sans-serif;
-    color: #fff;
-    font-size: 32px;
-    z-index: 99;
-    margin-right: 2em;
+    margin-top: 0.5em;
 }
 
 .text {
-    font-family: 'Calligraphr', sans-serif;
+    font-family: 'Schoolbell', sans-serif;
     color: #fff;
-    font-size: 32px;
+    font-weight: 500;
+    font-size: 28px;
     padding-bottom: 1.5rem;
     z-index: 99;
 }
@@ -201,11 +195,31 @@ h3 {
     z-index: 99;
     text-align: center;
     padding-top: 2em;
-    width: 100%;
+    margin: 0 100px 0 100px;
 }
 
 .date {
     z-index: 99;
+}
+
+#myBtn {
+    font-family: 'Calligraphr', sans-serif;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 22px;
+    border: none;
+    outline: none;
+    background-color: rgb(50, 50, 50);
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+}
+  
+#myBtn:hover {
+    background-color: #555;
 }
 
 /* Button Styles */
